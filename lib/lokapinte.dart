@@ -1,3 +1,6 @@
+// Tugas Pemrograman Mobile
+// Alfino Rizky Afandie 20210801275
+
 import 'main.dart';
 import 'package:flutter/material.dart';
 
@@ -11,11 +14,11 @@ class lokapinte extends StatelessWidget {
       title: 'First App',
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Masjid Terbaik', style: TextStyle(
-              color: Colors.black87),
+          title: Text('Masjid Terbaik di Dunia',
+              style: TextStyle(
+              color: Colors.blueGrey[900]),
           ),
-          backgroundColor: Colors.white,
-
+          backgroundColor: Colors.lightBlue[200],
         ),
         body:
         ListView(
@@ -94,7 +97,7 @@ class lokapinte extends StatelessWidget {
                       ),
                       ListTile(
                         contentPadding: EdgeInsets.symmetric(horizontal: 16.0),
-                        title: Text('Masjid Al Haram'),
+                        title: Text('Masjid Al-Haram'),
                         subtitle: Row(
                           children: [
                             Icon(
